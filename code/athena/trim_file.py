@@ -6,7 +6,7 @@ import s3fs
 This script takes every 100 lines of the AWS file and outputs into local drive.
 """
 bucket = "athena-east-1-satish/"
-path = "walmart_laptops_2018"
+path = "walmart_laptops_2018/"
 s3 = s3fs.S3FileSystem()
 df = pq.ParquetDataset('s3://'+bucket+path, filesystem=s3).read_pandas().to_pandas()
 
