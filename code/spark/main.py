@@ -1,4 +1,4 @@
-##Adapted from https://github.com/tedhyu/Auto-Querect
+import boto3
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext, SparkSession, functions as F
 from pyspark.sql.types import *
