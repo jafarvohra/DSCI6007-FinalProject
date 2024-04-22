@@ -2,7 +2,7 @@ Below is the athena statement to search common crawl for websites whose url cont
 The word "laptop" is recommended to be included in the query so that we can focus on the "laptop" basket of goods.
 
 /*save the output AS a parquet*/CREATE TABLE ccindex.walmart_laptops_query_2018
-WITH ( format='PARQUET', external_location='s3://walmart-east-2-usama/walmart_laptops_2018/' ) AS
+WITH ( format='PARQUET', external_location='s3://athena-east-1-satish/walmart_laptops_2018/' ) AS
 SELECT url,
          warc_filename,
          warc_record_offset,
