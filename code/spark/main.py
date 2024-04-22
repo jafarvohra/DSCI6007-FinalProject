@@ -1,3 +1,6 @@
+import sys
+
+sys.path.append("/home/hadoop/.local/lib/python3.9/site-packages")
 import boto3
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext, SparkSession, functions as F
