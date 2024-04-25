@@ -1,6 +1,6 @@
 # DSCI6007-FinalProject
 
-## Forecasting Inflation with an LSTM Neural Network Through an AWS Data Engineering Pipeline
+## Forecasting Inflation: LSTM Neural Network Through an AWS Data Engineering Pipeline
 ## Final Project Distributed &amp; Scalable Data Engineering - University of New Haven - S24
 
 **Overview:**
